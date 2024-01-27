@@ -8,6 +8,7 @@
   "categories": [
     "Developer Tools"
   ],
+  "repository": "https://github.com/kinxuchen/you-search.git",
   "commands": [
     {
       "title": "you search",
