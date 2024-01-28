@@ -14,7 +14,47 @@
       "title": "you search",
       "name": "you",
       "description": "you.com search",
-      "mode": "view"
+      "mode": "view",
+      "arguments": [
+        {
+          "type": "text",
+          "placeholder": "Please enter a keyword query",
+          "name": "query",
+          "required": false
+        }
+      ],
+      "preferences": [
+        {
+          "type": "dropdown",
+          "required": true,
+          "name": "model",
+          "title": "模型选择",
+          "description": "请选择模型",
+          "default": "gpt-4",
+          "data": [
+            {
+              "title": "Smart",
+              "value": "smart"
+            },
+            {
+              "title": "Genius",
+              "value": "agent"
+            },
+            {
+              "title": "gpt-4",
+              "value": "gpt-4"
+            },
+            {
+              "title": "Research",
+              "value": "research"
+            },
+            {
+              "title": "Create",
+              "value": "create"
+            }
+          ]
+        }
+      ]
     }
   ],
   "license": "MIT",
